@@ -1,0 +1,14 @@
+{
+  "extends": [
+    "airbnb-typescript"
+  ],
+  "parserOptions": {
+    "project": "./tsconfig.json"
+  },
+  "rules": {
+    "@typescript-eslint/lines-between-class-members": 0,
+    "import/extensions": 0,
+    "import/no-extraneous-dependencies": 0,
+    "react/jsx-filename-extension": 0
+  }
+}
